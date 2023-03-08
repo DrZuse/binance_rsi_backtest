@@ -26,6 +26,8 @@ logger.info('finish read csvs')
 df = pd.concat(files, ignore_index = True)
 
 
+logger.info(df.shape)
+
 def computeRSI (data, time_window):
     diff = data.diff(1).dropna()        # diff in one field(one day)
 
@@ -76,9 +78,10 @@ df['time UTC'] = pd.to_datetime(df['Open time'], unit='ms', origin='unix')
 df.dropna(inplace=True)
 #df
 
-stochastic_value = 4
-#df.loc[(df['D'] <= 0) & (df['RSI'] < 25), 'buy?'] = True
-df.loc[df['D'] <= stochastic_value, 'buy?'] = True
+stochastic_value = 5
+RSI_value = 100
+df.loc[(df['D'] <= stochastic_value) & (df['RSI'] < RSI_value), 'buy?'] = True
+#df.loc[df['D'] <= stochastic_value, 'buy?'] = True
 #df.loc[df['buy?'] == True]
 
 rolling_seconds = 60
@@ -93,19 +96,32 @@ df['min_val_%'] = (df['min_val'] - df['Open'].shift(-1)) * 100 / df['Open'].shif
 #df[60:70]
 #df.loc[df['buy?'] == True]
 
+df = df.loc[df['buy?'] == True]
+df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for confirmation
+df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 2d confirmation
+df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 3d confirmation
+df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 4d confirmation
+df = df.loc[df['Open time'] - df['Open time'].shift(1) > rolling_seconds * 1000] # wait until trade 
+
 tp_size = 0.075
 sl_size = 0.075
 # 0.075 RSI 40 total profit 2.47
 
 sl = df.loc[(df['buy?'] == True) & (df['min_val_%'] < -sl_size)]
-sl = sl.loc[sl['Open time'] - sl['Open time'].shift(1) > rolling_seconds * 1000]
+#sl = sl.loc[sl['Open time'] - sl['Open time'].shift(1) > rolling_seconds * 1000]
 #sl
 
 tp = df.loc[(df['buy?'] == True) & (df['max_val_%'] > tp_size)]
-tp = tp.loc[tp['Open time'] - tp['Open time'].shift(1) > rolling_seconds * 1000]
+#tp = tp.loc[tp['Open time'] - tp['Open time'].shift(1) > rolling_seconds * 1000]
 #tp
 
-logger.info(f'tp/sl: {tp.shape[0]/sl.shape[0]}')
 
 
-logger.info(f'total % {(tp.shape[0] * tp_size) - (sl.shape[0] * sl_size)} || stochastic_value: {stochastic_value}')
+
+logger.info(f'\n\
+tp/sl: {tp.shape[0]/sl.shape[0]} \n\
+stochastic_value: {stochastic_value} \n\
+RSI_value: {RSI_value} \n\
+rolling_seconds: {rolling_seconds} \n\
+tp.shape[0]: {tp.shape[0]} || sl.shape[0]: {sl.shape[0]} \n\
+total profit % {(tp.shape[0] * tp_size) - (sl.shape[0] * sl_size)}')

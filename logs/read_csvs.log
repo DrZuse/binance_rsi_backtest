@@ -1,12 +1,18 @@
 
-[2023-03-08T17:14:33.996] INFO [multi_backtest.py.17096.140676949705152.<module>:21]
+[2023-03-08T18:45:55.310] INFO [multi_backtest.py.19513.140154446885312.<module>:21]
 start read csvs
 
-[2023-03-08T17:14:41.074] INFO [multi_backtest.py.17096.140676949705152.<module>:24]
+[2023-03-08T18:46:02.080] INFO [multi_backtest.py.19513.140154446885312.<module>:24]
 finish read csvs
 
-[2023-03-08T17:14:54.522] INFO [multi_backtest.py.17096.140676949705152.<module>:108]
-tp/sl: 1.2132336149805891
+[2023-03-08T18:46:02.259] INFO [multi_backtest.py.19513.140154446885312.<module>:29]
+(20901681, 5)
 
-[2023-03-08T17:14:54.522] INFO [multi_backtest.py.17096.140676949705152.<module>:111]
-total % 560.25 || stochastic_value: 4
+[2023-03-08T18:46:15.404] INFO [multi_backtest.py.19513.140154446885312.<module>:121]
+
+tp/sl: 0.9542731216858343 
+stochastic_value: 5 
+RSI_value: 100 
+rolling_seconds: 60 
+tp.shape[0]: 13857 || sl.shape[0]: 14521 
+total profit % -49.80000000000018
