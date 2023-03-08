@@ -6,7 +6,8 @@ import os
 # =============================================================================
 basic_parameters = dict()
 basic_parameters['binance_ticker']                  = 'BTCUSDT'
-basic_parameters['dataframe_file']                  = 'BTCUSDT-1s-2023-03-02.csv'
+basic_parameters['dataframe_file']                  = 'BTCUSDT-1s-2023-03-06.csv'
+#basic_parameters['dataframe_file']                  = 'BTCUSDT-1m-2023-03-07.csv'
 basic_parameters['dataframe_dir']                   = 'dataframe'
 
 
