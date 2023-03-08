@@ -1,0 +1,12 @@
+
+[2023-03-08T17:14:33.996] INFO [multi_backtest.py.17096.140676949705152.<module>:21]
+start read csvs
+
+[2023-03-08T17:14:41.074] INFO [multi_backtest.py.17096.140676949705152.<module>:24]
+finish read csvs
+
+[2023-03-08T17:14:54.522] INFO [multi_backtest.py.17096.140676949705152.<module>:108]
+tp/sl: 1.2132336149805891
+
+[2023-03-08T17:14:54.522] INFO [multi_backtest.py.17096.140676949705152.<module>:111]
+total % 560.25 || stochastic_value: 4
