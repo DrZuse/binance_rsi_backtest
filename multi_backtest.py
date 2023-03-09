@@ -78,9 +78,9 @@ df['time UTC'] = pd.to_datetime(df['Open time'], unit='ms', origin='unix')
 df.dropna(inplace=True)
 #df
 
-stochastic_value = 5
-RSI_value = 100
-df.loc[(df['D'] <= stochastic_value) & (df['RSI'] < RSI_value), 'buy?'] = True
+stochastic_value = 0
+RSI_value = 20
+df.loc[(df['D'] <= stochastic_value) & (df['RSI'] <= RSI_value), 'buy?'] = True
 #df.loc[df['D'] <= stochastic_value, 'buy?'] = True
 #df.loc[df['buy?'] == True]
 
@@ -97,10 +97,10 @@ df['min_val_%'] = (df['min_val'] - df['Open'].shift(-1)) * 100 / df['Open'].shif
 #df.loc[df['buy?'] == True]
 
 df = df.loc[df['buy?'] == True]
-df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for confirmation
-df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 2d confirmation
-df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 3d confirmation
-df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 4d confirmation
+#df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for confirmation
+#df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 2d confirmation
+#df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 3d confirmation
+#df = df.loc[df['Open time'] - df['Open time'].shift(1) < rolling_seconds * 1000] # wait for 4d confirmation
 df = df.loc[df['Open time'] - df['Open time'].shift(1) > rolling_seconds * 1000] # wait until trade 
 
 tp_size = 0.075
