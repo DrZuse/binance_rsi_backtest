@@ -48,7 +48,7 @@ rsi_values = np.append(rsi_values[0], rsi_values) # FIX: return minus one value 
 #logger.info(rsi_values.shape) # 
 #logger.info(rsi_values) # 
 rsi_values[0:14] = None # FIX: values 1-13 irrelevant 
-signals = np.where(rsi_values < 25)
+signals = np.where(rsi_values <= 25)
 
 
 #logger.info(signals[0].tolist())
@@ -70,14 +70,20 @@ for s, sig_i in enumerate(big_arr_signal_indexes):
     if sig_i > trade_exit and big_arr_signal_indexes[s-1] == sig_i-1:
         #logger.info(f'time_of_signal: {datetime.datetime.utcfromtimestamp(big_arr[(sig_i), 0]/1000)}')
 
-        # enter position at the open of next second
+        # enter position at the open of next second after signal
         buy_price = big_arr[(sig_i+1), 1] # open price
         max_high = big_arr[(sig_i+1), 2]
         max_low = big_arr[(sig_i+1), 3]
-        loss = (buy_price - max_low) * 100 / buy_price
-        profit = (max_high - buy_price) * 100 / buy_price
+        #loss = (buy_price - max_low) * 100 / buy_price
+        #profit = (max_high - buy_price) * 100 / buy_price
         
-        for m, big_arr_m in enumerate(big_arr[(sig_i+1):]):
+        #max_high = buy_price
+        #max_low = buy_price
+        loss = 0
+        profit = 0
+
+        # TP/SL position at the next+1 second after signal
+        for m, big_arr_m in enumerate(big_arr[(sig_i+2):]):
         
             if big_arr_m[2] > max_high:
                 max_high = big_arr_m[2]
@@ -110,6 +116,7 @@ for s, sig_i in enumerate(big_arr_signal_indexes):
 
 logger.info(f'profitable trades: {profits} - {profits*profit_percent} \n\
 lose trades: {losses} - {losses*loss_percent} \n\
+ratio: {profits/losses} \n\
 not_finished_trades: {not_finished_trades} \n\
 profit_percent: {profit_percent} || loss_percent: {loss_percent} \n\
 total_profit: {(profits*profit_percent)-(losses*loss_percent)}')

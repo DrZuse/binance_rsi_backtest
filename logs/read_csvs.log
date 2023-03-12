@@ -1,25 +1,26 @@
 
-[2023-03-12T12:54:37.733] INFO [numpy_backtest.py.19723.140270242734528.<module>:30]
+[2023-03-12T13:17:25.276] INFO [numpy_backtest.py.21212.140143513452992.<module>:30]
 start read csvs
 
-[2023-03-12T12:54:48.545] INFO [numpy_backtest.py.19723.140270242734528.<module>:34]
+[2023-03-12T13:17:34.955] INFO [numpy_backtest.py.21212.140143513452992.<module>:34]
 finish read csvs
 
-[2023-03-12T12:54:48.714] INFO [numpy_backtest.py.19723.140270242734528.<module>:41]
+[2023-03-12T13:17:35.121] INFO [numpy_backtest.py.21212.140143513452992.<module>:41]
 (20901681, 5)
 
-[2023-03-12T12:54:51.237] INFO [numpy_backtest.py.19723.140270242734528.<module>:56]
+[2023-03-12T13:17:37.486] INFO [numpy_backtest.py.21212.140143513452992.<module>:56]
 len of big_arr_signal_indexes: 333048
 
-[2023-03-12T12:54:51.237] INFO [numpy_backtest.py.19723.140270242734528.<module>:67]
+[2023-03-12T13:17:37.486] INFO [numpy_backtest.py.21212.140143513452992.<module>:67]
 start loop
 
-[2023-03-12T12:54:53.706] INFO [numpy_backtest.py.19723.140270242734528.<module>:111]
-profitable trades: 11899 - 1189.9 
-lose trades: 58976 - 1179.52 
+[2023-03-12T13:17:39.772] INFO [numpy_backtest.py.21212.140143513452992.<module>:117]
+profitable trades: 13866 - 1386.6000000000001 
+lose trades: 58174 - 1163.48 
+ratio: 0.2383539038058239 
 not_finished_trades: 1 
 profit_percent: 0.1 || loss_percent: 0.02 
-total_profit: 10.38000000000011
+total_profit: 223.12000000000012
 
-[2023-03-12T12:54:53.707] INFO [numpy_backtest.py.19723.140270242734528.<module>:117]
+[2023-03-12T13:17:39.773] INFO [numpy_backtest.py.21212.140143513452992.<module>:124]
 finish
