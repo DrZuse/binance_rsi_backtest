@@ -1,1750 +1,25 @@
 
-[2023-03-11T13:04:46.221] INFO [numpy_backtest.py.15995.140628305207744.<module>:30]
+[2023-03-12T12:54:37.733] INFO [numpy_backtest.py.19723.140270242734528.<module>:30]
 start read csvs
 
-[2023-03-11T13:04:46.432] INFO [numpy_backtest.py.15995.140628305207744.<module>:34]
+[2023-03-12T12:54:48.545] INFO [numpy_backtest.py.19723.140270242734528.<module>:34]
 finish read csvs
 
-[2023-03-11T13:04:46.439] INFO [numpy_backtest.py.15995.140628305207744.<module>:41]
-(259200, 5)
+[2023-03-12T12:54:48.714] INFO [numpy_backtest.py.19723.140270242734528.<module>:41]
+(20901681, 5)
 
-[2023-03-11T13:04:46.495] INFO [numpy_backtest.py.15995.140628305207744.<module>:51]
-number of signals: 4339
+[2023-03-12T12:54:51.237] INFO [numpy_backtest.py.19723.140270242734528.<module>:56]
+len of big_arr_signal_indexes: 333048
 
-[2023-03-11T13:04:46.496] INFO [numpy_backtest.py.15995.140628305207744.<module>:62]
+[2023-03-12T12:54:51.237] INFO [numpy_backtest.py.19723.140270242734528.<module>:67]
 start loop
 
-[2023-03-11T13:04:46.497] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 00:22:01
-
-[2023-03-11T13:04:46.498] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 00:23:36
-
-[2023-03-11T13:04:46.499] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 00:28:13
-
-[2023-03-11T13:04:46.500] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 00:37:16
-
-[2023-03-11T13:04:46.501] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 00:41:29
-
-[2023-03-11T13:04:46.502] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 00:52:50
-
-[2023-03-11T13:04:46.504] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 01:01:38
-
-[2023-03-11T13:04:46.504] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 01:22:57
-
-[2023-03-11T13:04:46.505] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 01:23:02
-
-[2023-03-11T13:04:46.505] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 01:47:59
-
-[2023-03-11T13:04:46.507] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 01:50:38
-
-[2023-03-11T13:04:46.507] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 01:51:26
-
-[2023-03-11T13:04:46.508] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:09:23
-
-[2023-03-11T13:04:46.509] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:15:37
-
-[2023-03-11T13:04:46.510] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:21:27
-
-[2023-03-11T13:04:46.511] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:23:17
-
-[2023-03-11T13:04:46.511] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:28:19
-
-[2023-03-11T13:04:46.512] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:32:14
-
-[2023-03-11T13:04:46.513] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:32:54
-
-[2023-03-11T13:04:46.514] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:32:58
-
-[2023-03-11T13:04:46.514] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:33:00
-
-[2023-03-11T13:04:46.515] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:33:13
-
-[2023-03-11T13:04:46.516] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:33:20
-
-[2023-03-11T13:04:46.517] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:33:27
-
-[2023-03-11T13:04:46.517] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:10
-
-[2023-03-11T13:04:46.518] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:13
-
-[2023-03-11T13:04:46.519] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:21
-
-[2023-03-11T13:04:46.519] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:23
-
-[2023-03-11T13:04:46.520] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:25
-
-[2023-03-11T13:04:46.521] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:27
-
-[2023-03-11T13:04:46.521] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:29
-
-[2023-03-11T13:04:46.522] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:35
-
-[2023-03-11T13:04:46.523] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:39
-
-[2023-03-11T13:04:46.523] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:42
-
-[2023-03-11T13:04:46.524] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:35:44
-
-[2023-03-11T13:04:46.525] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:45:46
-
-[2023-03-11T13:04:46.526] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:51:25
-
-[2023-03-11T13:04:46.526] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:54:12
-
-[2023-03-11T13:04:46.527] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 02:56:50
-
-[2023-03-11T13:04:46.528] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:11:11
-
-[2023-03-11T13:04:46.528] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:15:34
-
-[2023-03-11T13:04:46.529] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:17:38
-
-[2023-03-11T13:04:46.530] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:23:10
-
-[2023-03-11T13:04:46.531] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:25:45
-
-[2023-03-11T13:04:46.531] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:26:32
-
-[2023-03-11T13:04:46.532] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:27:46
-
-[2023-03-11T13:04:46.533] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:31:00
-
-[2023-03-11T13:04:46.535] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:39:01
-
-[2023-03-11T13:04:46.535] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:44:05
-
-[2023-03-11T13:04:46.536] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:50:38
-
-[2023-03-11T13:04:46.536] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:53:58
-
-[2023-03-11T13:04:46.537] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:54:24
-
-[2023-03-11T13:04:46.538] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:57:31
-
-[2023-03-11T13:04:46.538] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 03:58:56
-
-[2023-03-11T13:04:46.539] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:08:11
-
-[2023-03-11T13:04:46.540] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:17:47
-
-[2023-03-11T13:04:46.541] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:27:45
-
-[2023-03-11T13:04:46.542] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:34:39
-
-[2023-03-11T13:04:46.543] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:35:16
-
-[2023-03-11T13:04:46.544] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:46:30
-
-[2023-03-11T13:04:46.545] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:48:45
-
-[2023-03-11T13:04:46.546] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 04:57:36
-
-[2023-03-11T13:04:46.547] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 05:30:56
-
-[2023-03-11T13:04:46.548] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 05:35:49
-
-[2023-03-11T13:04:46.548] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 05:36:41
-
-[2023-03-11T13:04:46.549] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 05:36:52
-
-[2023-03-11T13:04:46.549] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 05:41:33
-
-[2023-03-11T13:04:46.550] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 05:52:46
-
-[2023-03-11T13:04:46.551] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 05:58:21
-
-[2023-03-11T13:04:46.552] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 06:16:40
-
-[2023-03-11T13:04:46.552] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 06:21:59
-
-[2023-03-11T13:04:46.553] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 06:46:43
-
-[2023-03-11T13:04:46.554] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 07:01:46
-
-[2023-03-11T13:04:46.555] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 07:09:01
-
-[2023-03-11T13:04:46.557] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 07:15:58
-
-[2023-03-11T13:04:46.557] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 07:20:24
-
-[2023-03-11T13:04:46.559] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 07:22:28
-
-[2023-03-11T13:04:46.560] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 07:53:14
-
-[2023-03-11T13:04:46.562] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:03:35
-
-[2023-03-11T13:04:46.563] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:16:25
-
-[2023-03-11T13:04:46.563] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:18:36
-
-[2023-03-11T13:04:46.564] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:23:31
-
-[2023-03-11T13:04:46.565] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:38:39
-
-[2023-03-11T13:04:46.566] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:38:44
-
-[2023-03-11T13:04:46.566] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:41:58
-
-[2023-03-11T13:04:46.567] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:45:29
-
-[2023-03-11T13:04:46.568] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 08:58:11
-
-[2023-03-11T13:04:46.569] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 09:01:46
-
-[2023-03-11T13:04:46.570] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 09:04:15
-
-[2023-03-11T13:04:46.570] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 09:23:58
-
-[2023-03-11T13:04:46.571] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 09:25:24
-
-[2023-03-11T13:04:46.571] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 09:47:44
-
-[2023-03-11T13:04:46.572] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 09:59:15
-
-[2023-03-11T13:04:46.573] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 10:05:09
-
-[2023-03-11T13:04:46.574] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 10:27:27
-
-[2023-03-11T13:04:46.575] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 10:29:22
-
-[2023-03-11T13:04:46.576] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 10:31:48
-
-[2023-03-11T13:04:46.576] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 10:42:46
-
-[2023-03-11T13:04:46.578] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 10:53:36
-
-[2023-03-11T13:04:46.579] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 11:14:55
-
-[2023-03-11T13:04:46.580] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 11:25:43
-
-[2023-03-11T13:04:46.581] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 11:31:29
-
-[2023-03-11T13:04:46.582] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 11:37:31
-
-[2023-03-11T13:04:46.583] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 11:43:27
-
-[2023-03-11T13:04:46.585] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 11:57:27
-
-[2023-03-11T13:04:46.585] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 12:08:11
-
-[2023-03-11T13:04:46.586] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 12:18:41
-
-[2023-03-11T13:04:46.587] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 12:29:52
-
-[2023-03-11T13:04:46.588] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 12:38:10
-
-[2023-03-11T13:04:46.589] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 12:49:35
-
-[2023-03-11T13:04:46.590] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 12:53:00
-
-[2023-03-11T13:04:46.591] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 12:55:01
-
-[2023-03-11T13:04:46.591] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 13:16:27
-
-[2023-03-11T13:04:46.592] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 13:18:36
-
-[2023-03-11T13:04:46.593] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 13:44:51
-
-[2023-03-11T13:04:46.593] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 13:44:56
-
-[2023-03-11T13:04:46.594] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 13:45:05
-
-[2023-03-11T13:04:46.595] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 13:45:09
-
-[2023-03-11T13:04:46.596] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:01:26
-
-[2023-03-11T13:04:46.596] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:03:47
-
-[2023-03-11T13:04:46.597] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:06:59
-
-[2023-03-11T13:04:46.598] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:09:45
-
-[2023-03-11T13:04:46.599] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:18:05
-
-[2023-03-11T13:04:46.600] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:28:19
-
-[2023-03-11T13:04:46.601] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:34:31
-
-[2023-03-11T13:04:46.602] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:35:45
-
-[2023-03-11T13:04:46.603] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:38:20
-
-[2023-03-11T13:04:46.604] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:46:06
-
-[2023-03-11T13:04:46.605] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 14:59:52
-
-[2023-03-11T13:04:46.606] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 15:01:50
-
-[2023-03-11T13:04:46.607] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 15:18:08
-
-[2023-03-11T13:04:46.608] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 15:21:27
-
-[2023-03-11T13:04:46.608] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 15:41:05
-
-[2023-03-11T13:04:46.611] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 16:08:51
-
-[2023-03-11T13:04:46.612] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 16:19:26
-
-[2023-03-11T13:04:46.613] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 16:27:15
-
-[2023-03-11T13:04:46.614] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 16:42:32
-
-[2023-03-11T13:04:46.615] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 16:48:28
-
-[2023-03-11T13:04:46.617] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 16:51:02
-
-[2023-03-11T13:04:46.618] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 16:57:16
-
-[2023-03-11T13:04:46.619] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 17:02:55
-
-[2023-03-11T13:04:46.619] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 17:06:02
-
-[2023-03-11T13:04:46.621] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 17:37:28
-
-[2023-03-11T13:04:46.621] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 17:52:44
-
-[2023-03-11T13:04:46.623] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 18:28:58
-
-[2023-03-11T13:04:46.624] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 18:29:33
-
-[2023-03-11T13:04:46.626] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 18:57:00
-
-[2023-03-11T13:04:46.627] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 18:58:06
-
-[2023-03-11T13:04:46.627] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:03:29
-
-[2023-03-11T13:04:46.629] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:11:47
-
-[2023-03-11T13:04:46.630] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:24:01
-
-[2023-03-11T13:04:46.630] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:24:20
-
-[2023-03-11T13:04:46.631] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:26:12
-
-[2023-03-11T13:04:46.632] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:28:03
-
-[2023-03-11T13:04:46.632] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:28:07
-
-[2023-03-11T13:04:46.633] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:30:43
-
-[2023-03-11T13:04:46.634] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:32:49
-
-[2023-03-11T13:04:46.634] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:40:54
-
-[2023-03-11T13:04:46.635] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:50:57
-
-[2023-03-11T13:04:46.636] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 19:53:39
-
-[2023-03-11T13:04:46.637] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 20:13:24
-
-[2023-03-11T13:04:46.637] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 20:21:21
-
-[2023-03-11T13:04:46.638] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 20:29:17
-
-[2023-03-11T13:04:46.639] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 20:50:50
-
-[2023-03-11T13:04:46.640] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 20:58:57
-
-[2023-03-11T13:04:46.641] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:17:29
-
-[2023-03-11T13:04:46.641] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:17:34
-
-[2023-03-11T13:04:46.643] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:22:37
-
-[2023-03-11T13:04:46.644] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:25:52
-
-[2023-03-11T13:04:46.645] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:26:11
-
-[2023-03-11T13:04:46.646] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:29:48
-
-[2023-03-11T13:04:46.647] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:30:39
-
-[2023-03-11T13:04:46.650] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:38:41
-
-[2023-03-11T13:04:46.651] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:40:43
-
-[2023-03-11T13:04:46.652] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:41:47
-
-[2023-03-11T13:04:46.653] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:41:59
-
-[2023-03-11T13:04:46.655] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:42:19
-
-[2023-03-11T13:04:46.656] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:42:22
-
-[2023-03-11T13:04:46.657] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:42:26
-
-[2023-03-11T13:04:46.658] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:42:29
-
-[2023-03-11T13:04:46.659] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:42:32
-
-[2023-03-11T13:04:46.660] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:47:21
-
-[2023-03-11T13:04:46.661] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:52:10
-
-[2023-03-11T13:04:46.662] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 21:58:01
-
-[2023-03-11T13:04:46.663] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:02:55
-
-[2023-03-11T13:04:46.664] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:05:30
-
-[2023-03-11T13:04:46.665] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:06:11
-
-[2023-03-11T13:04:46.666] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:06:19
-
-[2023-03-11T13:04:46.667] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:17:20
-
-[2023-03-11T13:04:46.668] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:20:14
-
-[2023-03-11T13:04:46.669] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:27:08
-
-[2023-03-11T13:04:46.670] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:27:24
-
-[2023-03-11T13:04:46.671] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:31:39
-
-[2023-03-11T13:04:46.672] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:34:03
-
-[2023-03-11T13:04:46.673] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:38:22
-
-[2023-03-11T13:04:46.674] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:43:38
-
-[2023-03-11T13:04:46.675] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:50:54
-
-[2023-03-11T13:04:46.676] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 22:52:43
-
-[2023-03-11T13:04:46.677] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:00:20
-
-[2023-03-11T13:04:46.678] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:01:37
-
-[2023-03-11T13:04:46.679] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:01:45
-
-[2023-03-11T13:04:46.680] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:10:32
-
-[2023-03-11T13:04:46.681] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:10:42
-
-[2023-03-11T13:04:46.682] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:11:04
-
-[2023-03-11T13:04:46.683] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:11:09
-
-[2023-03-11T13:04:46.684] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:16:48
-
-[2023-03-11T13:04:46.685] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:17:07
-
-[2023-03-11T13:04:46.686] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:22:54
-
-[2023-03-11T13:04:46.687] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:37:01
-
-[2023-03-11T13:04:46.688] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:38:58
-
-[2023-03-11T13:04:46.689] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:45:46
-
-[2023-03-11T13:04:46.690] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:53:01
-
-[2023-03-11T13:04:46.691] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-05 23:56:10
-
-[2023-03-11T13:04:46.692] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:05:22
-
-[2023-03-11T13:04:46.693] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:15:15
-
-[2023-03-11T13:04:46.695] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:16:29
-
-[2023-03-11T13:04:46.696] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:16:41
-
-[2023-03-11T13:04:46.697] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:16:48
-
-[2023-03-11T13:04:46.698] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:32:59
-
-[2023-03-11T13:04:46.699] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:39:19
-
-[2023-03-11T13:04:46.700] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:45:51
-
-[2023-03-11T13:04:46.701] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:50:48
-
-[2023-03-11T13:04:46.702] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 00:53:27
-
-[2023-03-11T13:04:46.703] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:03:50
-
-[2023-03-11T13:04:46.705] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:08:34
-
-[2023-03-11T13:04:46.706] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:12:42
-
-[2023-03-11T13:04:46.707] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:14:11
-
-[2023-03-11T13:04:46.707] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:14:22
-
-[2023-03-11T13:04:46.708] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:14:29
-
-[2023-03-11T13:04:46.710] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:18:00
-
-[2023-03-11T13:04:46.711] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:32:38
-
-[2023-03-11T13:04:46.712] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:32:44
-
-[2023-03-11T13:04:46.713] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:36:33
-
-[2023-03-11T13:04:46.714] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:53:53
-
-[2023-03-11T13:04:46.716] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:54:05
-
-[2023-03-11T13:04:46.717] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:54:13
-
-[2023-03-11T13:04:46.718] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 01:54:17
-
-[2023-03-11T13:04:46.720] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:00:10
-
-[2023-03-11T13:04:46.721] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:01:35
-
-[2023-03-11T13:04:46.722] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:02:01
-
-[2023-03-11T13:04:46.723] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:03:24
-
-[2023-03-11T13:04:46.724] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:07:50
-
-[2023-03-11T13:04:46.725] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:10:29
-
-[2023-03-11T13:04:46.726] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:11:11
-
-[2023-03-11T13:04:46.727] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:18:15
-
-[2023-03-11T13:04:46.728] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:19:54
-
-[2023-03-11T13:04:46.730] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:26:58
-
-[2023-03-11T13:04:46.731] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:27:07
-
-[2023-03-11T13:04:46.732] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:31:55
-
-[2023-03-11T13:04:46.733] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 02:44:58
-
-[2023-03-11T13:04:46.734] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:14:10
-
-[2023-03-11T13:04:46.736] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:17:02
-
-[2023-03-11T13:04:46.737] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:25:02
-
-[2023-03-11T13:04:46.738] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:39:42
-
-[2023-03-11T13:04:46.739] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:40:03
-
-[2023-03-11T13:04:46.740] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:46:01
-
-[2023-03-11T13:04:46.741] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:47:35
-
-[2023-03-11T13:04:46.743] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 03:56:28
-
-[2023-03-11T13:04:46.744] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 04:24:10
-
-[2023-03-11T13:04:46.746] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 04:31:52
-
-[2023-03-11T13:04:46.747] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 04:48:03
-
-[2023-03-11T13:04:46.748] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 05:28:41
-
-[2023-03-11T13:04:46.750] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 05:51:04
-
-[2023-03-11T13:04:46.751] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 06:12:21
-
-[2023-03-11T13:04:46.752] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 06:20:53
-
-[2023-03-11T13:04:46.753] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 06:37:09
-
-[2023-03-11T13:04:46.755] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 07:13:33
-
-[2023-03-11T13:04:46.756] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 07:20:28
-
-[2023-03-11T13:04:46.757] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 07:32:11
-
-[2023-03-11T13:04:46.758] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 07:43:14
-
-[2023-03-11T13:04:46.759] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 07:54:56
-
-[2023-03-11T13:04:46.760] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 08:09:01
-
-[2023-03-11T13:04:46.761] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 08:18:20
-
-[2023-03-11T13:04:46.762] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 08:47:29
-
-[2023-03-11T13:04:46.763] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 09:14:05
-
-[2023-03-11T13:04:46.765] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 09:23:51
-
-[2023-03-11T13:04:46.766] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 09:45:57
-
-[2023-03-11T13:04:46.767] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 09:49:25
-
-[2023-03-11T13:04:46.768] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 10:13:40
-
-[2023-03-11T13:04:46.769] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 10:20:33
-
-[2023-03-11T13:04:46.770] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 10:36:17
-
-[2023-03-11T13:04:46.772] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 11:03:33
-
-[2023-03-11T13:04:46.774] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 11:44:54
-
-[2023-03-11T13:04:46.775] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 12:09:05
-
-[2023-03-11T13:04:46.776] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 12:21:33
-
-[2023-03-11T13:04:46.778] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 12:33:31
-
-[2023-03-11T13:04:46.779] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:11:15
-
-[2023-03-11T13:04:46.780] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:20:50
-
-[2023-03-11T13:04:46.781] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:27:15
-
-[2023-03-11T13:04:46.782] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:33:38
-
-[2023-03-11T13:04:46.783] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:41:38
-
-[2023-03-11T13:04:46.784] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:47:37
-
-[2023-03-11T13:04:46.785] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:47:50
-
-[2023-03-11T13:04:46.786] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 13:59:34
-
-[2023-03-11T13:04:46.787] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:04:39
-
-[2023-03-11T13:04:46.789] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:05:17
-
-[2023-03-11T13:04:46.790] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:22:36
-
-[2023-03-11T13:04:46.791] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:31:07
-
-[2023-03-11T13:04:46.792] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:35:06
-
-[2023-03-11T13:04:46.793] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:37:27
-
-[2023-03-11T13:04:46.794] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:46:02
-
-[2023-03-11T13:04:46.796] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:52:31
-
-[2023-03-11T13:04:46.797] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 14:57:21
-
-[2023-03-11T13:04:46.798] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 15:09:36
-
-[2023-03-11T13:04:46.799] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 15:22:43
-
-[2023-03-11T13:04:46.800] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 15:26:01
-
-[2023-03-11T13:04:46.801] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 15:48:55
-
-[2023-03-11T13:04:46.802] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 15:56:19
-
-[2023-03-11T13:04:46.804] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:04:45
-
-[2023-03-11T13:04:46.805] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:09:11
-
-[2023-03-11T13:04:46.806] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:19:56
-
-[2023-03-11T13:04:46.807] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:23:27
-
-[2023-03-11T13:04:46.808] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:26:22
-
-[2023-03-11T13:04:46.809] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:27:29
-
-[2023-03-11T13:04:46.810] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:34:24
-
-[2023-03-11T13:04:46.811] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:36:33
-
-[2023-03-11T13:04:46.812] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:44:51
-
-[2023-03-11T13:04:46.813] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:47:25
-
-[2023-03-11T13:04:46.815] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:57:06
-
-[2023-03-11T13:04:46.816] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 16:58:14
-
-[2023-03-11T13:04:46.817] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 17:05:40
-
-[2023-03-11T13:04:46.818] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 17:20:38
-
-[2023-03-11T13:04:46.819] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 17:31:34
-
-[2023-03-11T13:04:46.822] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 17:35:49
-
-[2023-03-11T13:04:46.823] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 17:39:15
-
-[2023-03-11T13:04:46.824] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 17:45:59
-
-[2023-03-11T13:04:46.825] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 18:08:39
-
-[2023-03-11T13:04:46.826] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 18:09:34
-
-[2023-03-11T13:04:46.827] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 18:35:54
-
-[2023-03-11T13:04:46.829] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 18:44:49
-
-[2023-03-11T13:04:46.830] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 18:56:01
-
-[2023-03-11T13:04:46.832] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:02:14
-
-[2023-03-11T13:04:46.833] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:09:17
-
-[2023-03-11T13:04:46.835] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:16:54
-
-[2023-03-11T13:04:46.836] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:17:43
-
-[2023-03-11T13:04:46.837] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:18:24
-
-[2023-03-11T13:04:46.839] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:18:43
-
-[2023-03-11T13:04:46.840] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:18:46
-
-[2023-03-11T13:04:46.841] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:18:49
-
-[2023-03-11T13:04:46.842] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:21:13
-
-[2023-03-11T13:04:46.843] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:42:15
-
-[2023-03-11T13:04:46.844] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:56:03
-
-[2023-03-11T13:04:46.845] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:58:35
-
-[2023-03-11T13:04:46.846] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 19:58:40
-
-[2023-03-11T13:04:46.847] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:02:14
-
-[2023-03-11T13:04:46.848] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:05:43
-
-[2023-03-11T13:04:46.849] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:06:59
-
-[2023-03-11T13:04:46.850] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:14:04
-
-[2023-03-11T13:04:46.852] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:14:13
-
-[2023-03-11T13:04:46.853] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:28:57
-
-[2023-03-11T13:04:46.854] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:40:15
-
-[2023-03-11T13:04:46.855] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:53:02
-
-[2023-03-11T13:04:46.856] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:56:37
-
-[2023-03-11T13:04:46.857] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 20:57:52
-
-[2023-03-11T13:04:46.858] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 21:00:33
-
-[2023-03-11T13:04:46.860] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 21:07:19
-
-[2023-03-11T13:04:46.861] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 21:13:26
-
-[2023-03-11T13:04:46.862] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 21:27:54
-
-[2023-03-11T13:04:46.863] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 21:35:02
-
-[2023-03-11T13:04:46.865] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 21:58:19
-
-[2023-03-11T13:04:46.866] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 22:04:25
-
-[2023-03-11T13:04:46.868] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 22:15:52
-
-[2023-03-11T13:04:46.870] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 22:44:29
-
-[2023-03-11T13:04:46.871] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 22:45:19
-
-[2023-03-11T13:04:46.872] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 23:08:26
-
-[2023-03-11T13:04:46.873] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 23:36:12
-
-[2023-03-11T13:04:46.874] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 23:37:33
-
-[2023-03-11T13:04:46.875] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-06 23:37:39
-
-[2023-03-11T13:04:46.876] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 00:09:51
-
-[2023-03-11T13:04:46.877] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 00:13:10
-
-[2023-03-11T13:04:46.878] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 00:26:20
-
-[2023-03-11T13:04:46.879] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 00:27:11
-
-[2023-03-11T13:04:46.880] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 00:36:42
-
-[2023-03-11T13:04:46.881] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 00:52:45
-
-[2023-03-11T13:04:46.882] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:03:36
-
-[2023-03-11T13:04:46.883] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:16:24
-
-[2023-03-11T13:04:46.883] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:26:44
-
-[2023-03-11T13:04:46.884] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:27:15
-
-[2023-03-11T13:04:46.884] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:33:48
-
-[2023-03-11T13:04:46.885] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:44:30
-
-[2023-03-11T13:04:46.886] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:50:22
-
-[2023-03-11T13:04:46.887] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 01:58:48
-
-[2023-03-11T13:04:46.887] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 02:02:57
-
-[2023-03-11T13:04:46.888] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 02:12:59
-
-[2023-03-11T13:04:46.889] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 02:22:45
-
-[2023-03-11T13:04:46.890] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 02:36:44
-
-[2023-03-11T13:04:46.891] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 02:39:32
-
-[2023-03-11T13:04:46.891] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 02:54:05
-
-[2023-03-11T13:04:46.892] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 03:03:00
-
-[2023-03-11T13:04:46.893] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 03:08:38
-
-[2023-03-11T13:04:46.893] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 03:13:36
-
-[2023-03-11T13:04:46.894] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 03:19:51
-
-[2023-03-11T13:04:46.895] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 03:37:26
-
-[2023-03-11T13:04:46.896] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 03:47:46
-
-[2023-03-11T13:04:46.897] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 04:31:13
-
-[2023-03-11T13:04:46.898] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 05:17:53
-
-[2023-03-11T13:04:46.899] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 05:47:07
-
-[2023-03-11T13:04:46.901] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 06:14:17
-
-[2023-03-11T13:04:46.901] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 06:20:02
-
-[2023-03-11T13:04:46.902] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 06:22:57
-
-[2023-03-11T13:04:46.903] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 06:33:23
-
-[2023-03-11T13:04:46.903] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 06:36:21
-
-[2023-03-11T13:04:46.904] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 06:59:18
-
-[2023-03-11T13:04:46.905] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 07:21:29
-
-[2023-03-11T13:04:46.906] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 07:21:35
-
-[2023-03-11T13:04:46.907] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 07:27:26
-
-[2023-03-11T13:04:46.907] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 07:40:05
-
-[2023-03-11T13:04:46.908] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 07:56:23
-
-[2023-03-11T13:04:46.909] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 08:07:50
-
-[2023-03-11T13:04:46.910] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 08:23:22
-
-[2023-03-11T13:04:46.911] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 08:46:28
-
-[2023-03-11T13:04:46.911] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 08:59:22
-
-[2023-03-11T13:04:46.912] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 09:17:53
-
-[2023-03-11T13:04:46.913] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 09:18:25
-
-[2023-03-11T13:04:46.913] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 09:26:07
-
-[2023-03-11T13:04:46.914] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 09:28:59
-
-[2023-03-11T13:04:46.915] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 09:40:41
-
-[2023-03-11T13:04:46.915] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 09:45:07
-
-[2023-03-11T13:04:46.916] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 09:56:58
-
-[2023-03-11T13:04:46.917] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 10:31:55
-
-[2023-03-11T13:04:46.918] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 10:51:36
-
-[2023-03-11T13:04:46.919] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 11:04:40
-
-[2023-03-11T13:04:46.919] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 11:10:31
-
-[2023-03-11T13:04:46.920] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 11:18:44
-
-[2023-03-11T13:04:46.921] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 11:22:09
-
-[2023-03-11T13:04:46.921] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 11:30:23
-
-[2023-03-11T13:04:46.922] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 11:41:05
-
-[2023-03-11T13:04:46.923] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 11:57:20
-
-[2023-03-11T13:04:46.923] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 12:17:27
-
-[2023-03-11T13:04:46.924] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 12:25:52
-
-[2023-03-11T13:04:46.925] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 12:30:50
-
-[2023-03-11T13:04:46.925] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 12:36:59
-
-[2023-03-11T13:04:46.926] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 12:47:30
-
-[2023-03-11T13:04:46.927] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 13:00:39
-
-[2023-03-11T13:04:46.928] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 13:24:16
-
-[2023-03-11T13:04:46.929] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 13:32:18
-
-[2023-03-11T13:04:46.929] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 13:42:14
-
-[2023-03-11T13:04:46.930] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 13:57:51
-
-[2023-03-11T13:04:46.931] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 13:58:09
-
-[2023-03-11T13:04:46.931] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:05:59
-
-[2023-03-11T13:04:46.932] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:09:02
-
-[2023-03-11T13:04:46.933] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:15:57
-
-[2023-03-11T13:04:46.933] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:16:17
-
-[2023-03-11T13:04:46.934] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:16:20
-
-[2023-03-11T13:04:46.934] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:20:03
-
-[2023-03-11T13:04:46.935] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:25:30
-
-[2023-03-11T13:04:46.936] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:25:54
-
-[2023-03-11T13:04:46.936] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:31:06
-
-[2023-03-11T13:04:46.937] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:31:36
-
-[2023-03-11T13:04:46.938] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:31:43
-
-[2023-03-11T13:04:46.938] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:31:45
-
-[2023-03-11T13:04:46.939] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:31:47
-
-[2023-03-11T13:04:46.939] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:39:06
-
-[2023-03-11T13:04:46.940] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:39:12
-
-[2023-03-11T13:04:46.940] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:40:41
-
-[2023-03-11T13:04:46.941] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:46:52
-
-[2023-03-11T13:04:46.941] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 14:52:53
-
-[2023-03-11T13:04:46.942] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:00:01
-
-[2023-03-11T13:04:46.942] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:00:08
-
-[2023-03-11T13:04:46.943] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:00:52
-
-[2023-03-11T13:04:46.944] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:00:57
-
-[2023-03-11T13:04:46.944] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:00:59
-
-[2023-03-11T13:04:46.945] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:01:03
-
-[2023-03-11T13:04:46.945] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:04:37
-
-[2023-03-11T13:04:46.946] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:05:04
-
-[2023-03-11T13:04:46.946] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:07:26
-
-[2023-03-11T13:04:46.947] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:07:52
-
-[2023-03-11T13:04:46.947] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:09:27
-
-[2023-03-11T13:04:46.948] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:14:15
-
-[2023-03-11T13:04:46.949] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:41:34
-
-[2023-03-11T13:04:46.949] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:41:37
-
-[2023-03-11T13:04:46.950] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:41:40
-
-[2023-03-11T13:04:46.950] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:44:18
-
-[2023-03-11T13:04:46.951] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 15:50:20
-
-[2023-03-11T13:04:46.952] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:12:50
-
-[2023-03-11T13:04:46.952] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:15:04
-
-[2023-03-11T13:04:46.953] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:15:12
-
-[2023-03-11T13:04:46.954] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:28:46
-
-[2023-03-11T13:04:46.954] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:29:04
-
-[2023-03-11T13:04:46.955] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:29:08
-
-[2023-03-11T13:04:46.956] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:35:16
-
-[2023-03-11T13:04:46.956] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:53:01
-
-[2023-03-11T13:04:46.957] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:55:09
-
-[2023-03-11T13:04:46.958] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 16:57:18
-
-[2023-03-11T13:04:46.958] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 17:36:09
-
-[2023-03-11T13:04:46.959] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 17:38:30
-
-[2023-03-11T13:04:46.960] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 17:41:46
-
-[2023-03-11T13:04:46.960] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 17:52:28
-
-[2023-03-11T13:04:46.961] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:04:54
-
-[2023-03-11T13:04:46.962] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:20:34
-
-[2023-03-11T13:04:46.963] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:22:39
-
-[2023-03-11T13:04:46.963] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:33:25
-
-[2023-03-11T13:04:46.964] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:36:24
-
-[2023-03-11T13:04:46.965] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:38:17
-
-[2023-03-11T13:04:46.966] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:38:47
-
-[2023-03-11T13:04:46.966] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:43:25
-
-[2023-03-11T13:04:46.967] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:46:37
-
-[2023-03-11T13:04:46.968] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:49:16
-
-[2023-03-11T13:04:46.968] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:49:20
-
-[2023-03-11T13:04:46.970] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:49:22
-
-[2023-03-11T13:04:46.970] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 18:54:35
-
-[2023-03-11T13:04:46.971] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:03:43
-
-[2023-03-11T13:04:46.972] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:23:03
-
-[2023-03-11T13:04:46.973] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:23:19
-
-[2023-03-11T13:04:46.975] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:25:47
-
-[2023-03-11T13:04:46.975] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:44:22
-
-[2023-03-11T13:04:46.976] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:57:15
-
-[2023-03-11T13:04:46.977] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:57:17
-
-[2023-03-11T13:04:46.977] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:57:21
-
-[2023-03-11T13:04:46.979] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:57:28
-
-[2023-03-11T13:04:46.979] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:57:33
-
-[2023-03-11T13:04:46.980] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:57:37
-
-[2023-03-11T13:04:46.981] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 19:57:40
-
-[2023-03-11T13:04:46.982] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:01:33
-
-[2023-03-11T13:04:46.983] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:04:35
-
-[2023-03-11T13:04:46.984] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:07:11
-
-[2023-03-11T13:04:46.984] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:21:37
-
-[2023-03-11T13:04:46.985] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:22:06
-
-[2023-03-11T13:04:46.986] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:25:27
-
-[2023-03-11T13:04:46.987] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:25:34
-
-[2023-03-11T13:04:46.988] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:29:07
-
-[2023-03-11T13:04:46.988] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:29:12
-
-[2023-03-11T13:04:46.989] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:29:17
-
-[2023-03-11T13:04:46.990] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:39:56
-
-[2023-03-11T13:04:46.991] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:46:06
-
-[2023-03-11T13:04:46.992] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:46:19
-
-[2023-03-11T13:04:46.993] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:46:26
-
-[2023-03-11T13:04:46.994] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 20:51:09
-
-[2023-03-11T13:04:46.995] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:06:14
-
-[2023-03-11T13:04:46.995] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:09:44
-
-[2023-03-11T13:04:46.996] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:10:34
-
-[2023-03-11T13:04:46.997] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:10:52
-
-[2023-03-11T13:04:46.997] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:13:28
-
-[2023-03-11T13:04:46.998] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:13:31
-
-[2023-03-11T13:04:46.999] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:13:38
-
-[2023-03-11T13:04:46.999] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:13:41
-
-[2023-03-11T13:04:47.000] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:13:47
-
-[2023-03-11T13:04:47.001] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:18:28
-
-[2023-03-11T13:04:47.002] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:21:24
-
-[2023-03-11T13:04:47.002] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:23:01
-
-[2023-03-11T13:04:47.003] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:41:37
-
-[2023-03-11T13:04:47.004] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:45:32
-
-[2023-03-11T13:04:47.005] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:49:35
-
-[2023-03-11T13:04:47.005] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:49:37
-
-[2023-03-11T13:04:47.006] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:49:55
-
-[2023-03-11T13:04:47.006] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 21:55:41
-
-[2023-03-11T13:04:47.007] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:04:19
-
-[2023-03-11T13:04:47.008] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:04:45
-
-[2023-03-11T13:04:47.009] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:05:32
-
-[2023-03-11T13:04:47.009] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:06:07
-
-[2023-03-11T13:04:47.010] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:09:08
-
-[2023-03-11T13:04:47.011] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:09:18
-
-[2023-03-11T13:04:47.011] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:09:22
-
-[2023-03-11T13:04:47.012] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:13:28
-
-[2023-03-11T13:04:47.012] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:29:21
-
-[2023-03-11T13:04:47.013] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:30:52
-
-[2023-03-11T13:04:47.013] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:31:40
-
-[2023-03-11T13:04:47.014] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:34:34
-
-[2023-03-11T13:04:47.015] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:39:43
-
-[2023-03-11T13:04:47.016] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:41:57
-
-[2023-03-11T13:04:47.016] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:43:53
-
-[2023-03-11T13:04:47.017] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:51:52
-
-[2023-03-11T13:04:47.017] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:52:36
-
-[2023-03-11T13:04:47.018] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:53:10
-
-[2023-03-11T13:04:47.019] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 22:57:34
-
-[2023-03-11T13:04:47.019] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:00:16
-
-[2023-03-11T13:04:47.020] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:04:37
-
-[2023-03-11T13:04:47.021] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:05:39
-
-[2023-03-11T13:04:47.021] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:12:57
-
-[2023-03-11T13:04:47.022] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:13:03
-
-[2023-03-11T13:04:47.023] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:15:25
-
-[2023-03-11T13:04:47.023] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:30:30
-
-[2023-03-11T13:04:47.024] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:41:21
-
-[2023-03-11T13:04:47.024] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:48:22
-
-[2023-03-11T13:04:47.025] INFO [numpy_backtest.py.15995.140628305207744.<module>:71]
-time_of_signal: 2023-03-07 23:57:37
-
-[2023-03-11T13:04:47.026] INFO [numpy_backtest.py.15995.140628305207744.<module>:116]
-profitable trades: 271 - 13.55 
-lose trades: 304 - 15.200000000000001 
+[2023-03-12T12:54:53.706] INFO [numpy_backtest.py.19723.140270242734528.<module>:111]
+profitable trades: 11899 - 1189.9 
+lose trades: 58976 - 1179.52 
 not_finished_trades: 1 
-profit_percent: 0.05 || loss_percent: 0.05 
-total_profit: -1.6500000000000004
+profit_percent: 0.1 || loss_percent: 0.02 
+total_profit: 10.38000000000011
 
-[2023-03-11T13:04:47.026] INFO [numpy_backtest.py.15995.140628305207744.<module>:122]
+[2023-03-12T12:54:53.707] INFO [numpy_backtest.py.19723.140270242734528.<module>:117]
 finish
