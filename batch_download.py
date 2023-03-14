@@ -11,7 +11,7 @@ from multiprocessing.pool import ThreadPool
 
 links_to_download = []
 path_to_save = []
-for date in pd.date_range(start="2022-07-08", end="2023-03-07"):
+for date in pd.date_range(start="2023-03-07", end="2023-03-13"):
     link = f'https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-{date.strftime("%Y-%m-%d")}.zip'
     path = f'../big_dataframes/binance/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-{date.strftime("%Y-%m-%d")}.zip'
     links_to_download.append(link)

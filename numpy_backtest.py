@@ -16,7 +16,7 @@ logger = setup_logger('read_csvs')
 
 names = ['Open time', 'Open', 'High', 'Low', 'Close', 'Volume', 'Close time', 'Quote asset volume', 'Number of trades', 'Taker buy base asset volume', 'Taker buy quote asset volume', 'Ignore']
 
-
+rsi_value = 25
 
 #----- Lists of files 
 
@@ -30,7 +30,7 @@ def read_csv_inparalel(file):
 logger.info('start read csvs')
 with Pool(cpu_count()) as p:
     files = p.map(read_csv_inparalel, theOrderBookFiles)
-    #files = p.map(read_csv_inparalel, theOrderBookFiles[-1:]) # TEST 3 files
+    #files = p.map(read_csv_inparalel, theOrderBookFiles[-10:]) # TEST 3 files
 logger.info('finish read csvs')
 
 
@@ -48,7 +48,7 @@ rsi_values = np.append(rsi_values[0], rsi_values) # FIX: return minus one value 
 #logger.info(rsi_values.shape) # 
 #logger.info(rsi_values) # 
 rsi_values[0:14] = None # FIX: values 1-13 irrelevant 
-signals = np.where(rsi_values <= 25)
+signals = np.where(rsi_values < rsi_value)
 
 
 #logger.info(signals[0].tolist())
@@ -62,14 +62,16 @@ trade_exit = 0
 not_finished_trades = 0
 
 profit_percent = 0.08
-loss_percent = 0.08
+loss_percent = 0.02
 tp_at_the_enter_second = 0
 sl_at_the_enter_second = 0
 
 logger.info('start loop')
 
 for s, sig_i in enumerate(big_arr_signal_indexes):
-    if sig_i > trade_exit and big_arr_signal_indexes[s-1] == sig_i-1:
+    if sig_i > trade_exit and big_arr_signal_indexes[s-1] == sig_i-1 and (sig_i+1) < big_arr.shape[0]:
+    #if sig_i > trade_exit and (sig_i+1) < big_arr.shape[0]:
+    #if sig_i > trade_exit and (sig_i+1) < big_arr.shape[0] and big_arr_signal_indexes[s-1] == sig_i-1 and rsi_values[sig_i-1] < rsi_values[sig_i]:
         #logger.info(f'time_of_signal: {datetime.datetime.utcfromtimestamp(big_arr[(sig_i), 0]/1000)}')
 
         # enter position at the open price of next second after signal
@@ -120,6 +122,8 @@ for s, sig_i in enumerate(big_arr_signal_indexes):
                 break
         else:
             not_finished_trades += 1
+            #print(f'not_finished_trade start: {datetime.datetime.utcfromtimestamp(big_arr[(sig_i), 0]/1000)}')
+            #print(f'not_finished_trade buy_price: {buy_price} || max_high: {max_high} || max_low: {max_low}')
 
 
 logger.info(f'profitable trades: {profits} - {profits*profit_percent}% \n\
@@ -129,6 +133,7 @@ not_finished_trades: {not_finished_trades} \n\
 tp_percent: {profit_percent}% || sl_percent: {loss_percent}% \n\
 sl_at_the_enter_second: {sl_at_the_enter_second} \n\
 tp_at_the_enter_second: {tp_at_the_enter_second} \n\
+rsi_value: {rsi_value} \n\
 total_profit: {(profits*profit_percent)-(losses*loss_percent)}%')
 
 logger.info('finish')
