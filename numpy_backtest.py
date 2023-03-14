@@ -122,14 +122,14 @@ for s, sig_i in enumerate(big_arr_signal_indexes):
             not_finished_trades += 1
 
 
-logger.info(f'profitable trades: {profits} - {profits*profit_percent} \n\
-lose trades: {losses} - {losses*loss_percent} \n\
+logger.info(f'profitable trades: {profits} - {profits*profit_percent}% \n\
+lose trades: {losses} - {losses*loss_percent}% \n\
 ratio: {profits/losses} \n\
 not_finished_trades: {not_finished_trades} \n\
-profit_percent: {profit_percent} || loss_percent: {loss_percent} \n\
+tp_percent: {profit_percent}% || sl_percent: {loss_percent}% \n\
 sl_at_the_enter_second: {sl_at_the_enter_second} \n\
 tp_at_the_enter_second: {tp_at_the_enter_second} \n\
-total_profit: {(profits*profit_percent)-(losses*loss_percent)}')
+total_profit: {(profits*profit_percent)-(losses*loss_percent)}%')
 
 logger.info('finish')
         
