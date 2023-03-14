@@ -63,7 +63,8 @@ not_finished_trades = 0
 
 profit_percent = 0.08
 loss_percent = 0.08
-stop_loss_at_enter_second = 0
+tp_at_the_enter_second = 0
+sl_at_the_enter_second = 0
 
 logger.info('start loop')
 
@@ -99,10 +100,14 @@ for s, sig_i in enumerate(big_arr_signal_indexes):
             if profit >= profit_percent:
                 #print('--- TP ---')
                 profits += 1
+                if m == 0:
+                    tp_at_the_enter_second += 1
 
             if loss >= loss_percent:
                 #print('--- SL ---')
                 losses += 1
+                if m == 0:
+                    sl_at_the_enter_second += 1
 
             if profit >= profit_percent or loss >= loss_percent:
                 #print(f'buy_price: {buy_price}')
@@ -122,6 +127,8 @@ lose trades: {losses} - {losses*loss_percent} \n\
 ratio: {profits/losses} \n\
 not_finished_trades: {not_finished_trades} \n\
 profit_percent: {profit_percent} || loss_percent: {loss_percent} \n\
+sl_at_the_enter_second: {sl_at_the_enter_second} \n\
+tp_at_the_enter_second: {tp_at_the_enter_second} \n\
 total_profit: {(profits*profit_percent)-(losses*loss_percent)}')
 
 logger.info('finish')
