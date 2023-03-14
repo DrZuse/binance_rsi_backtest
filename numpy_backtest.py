@@ -61,8 +61,9 @@ losses = 0
 trade_exit = 0
 not_finished_trades = 0
 
-profit_percent = 0.1
-loss_percent = 0.02
+profit_percent = 0.08
+loss_percent = 0.08
+stop_loss_at_enter_second = 0
 
 logger.info('start loop')
 
@@ -70,20 +71,22 @@ for s, sig_i in enumerate(big_arr_signal_indexes):
     if sig_i > trade_exit and big_arr_signal_indexes[s-1] == sig_i-1:
         #logger.info(f'time_of_signal: {datetime.datetime.utcfromtimestamp(big_arr[(sig_i), 0]/1000)}')
 
-        # enter position at the open of next second after signal
+        # enter position at the open price of next second after signal
         buy_price = big_arr[(sig_i+1), 1] # open price
-        max_high = big_arr[(sig_i+1), 2]
-        max_low = big_arr[(sig_i+1), 3]
+
+
+        #max_high = big_arr[(sig_i+1), 2]
+        #max_low = big_arr[(sig_i+1), 3]
         #loss = (buy_price - max_low) * 100 / buy_price
         #profit = (max_high - buy_price) * 100 / buy_price
         
-        #max_high = buy_price
-        #max_low = buy_price
+        max_high = buy_price
+        max_low = buy_price
         loss = 0
         profit = 0
 
-        # TP/SL position at the next+1 second after signal
-        for m, big_arr_m in enumerate(big_arr[(sig_i+2):]):
+        # TP/SL position at the next second after signal
+        for m, big_arr_m in enumerate(big_arr[(sig_i+1):]):
         
             if big_arr_m[2] > max_high:
                 max_high = big_arr_m[2]
