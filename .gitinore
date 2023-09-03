@@ -6,3 +6,4 @@ tst_*
 dataframe
 *.csv
 *.ipynb
+backtest.ipynb
