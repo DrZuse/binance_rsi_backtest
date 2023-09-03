@@ -5,3 +5,4 @@ logs
 tst_*
 dataframe
 *.csv
+*.ipynb
